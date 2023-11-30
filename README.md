@@ -67,7 +67,6 @@ redirect_uri
 
 |
 
-https://kk.dev.selftech.ru/realms/SST/account/#/
 
 |
 
@@ -84,7 +83,6 @@ Callback должен получить значение`authorization_code`
 
 |
 
-http://oms.selftech.ru/auth
 
 |
 
@@ -268,7 +266,7 @@ S256/S512/RS256/RS512
 
 `code` полученный на первом шаге меняется на токен
 
-***POST*** */realms/SST/protocol/openid-connect/token*
+***POST*** */realms/{realm}/protocol/openid-connect/token*
 
 **{red}(Заголовок)** `Content-Type: application/x-www-form-urlencoded`
 
